@@ -16,6 +16,7 @@ end
 
 group :test do
   gem 'webrat'
+  gem 'spork'
 end
 
 
