@@ -13,7 +13,7 @@ Sample2::Application.configure do
   config.serve_static_assets = true    # 11-28-11 Heroku won't serve vendor non-precompiled assets
 
   # Compress JavaScripts and CSS
-  config.assets.compress = true
+  config.assets.compress = false # TRUE won't work with precompiled assets
 
   # Don't fallback to assets pipeline if a precompiled asset is missed
   #config.assets.compile = false
