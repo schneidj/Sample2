@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>dev/Sample2/app/views/users/untitled.erb</string>
+	<string>app/models/user.rb</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -21,15 +21,27 @@
 			<string>app/views/users/untitled.erb</string>
 			<key>lastUsed</key>
 			<date>2011-12-15T16:07:20Z</date>
-			<key>selected</key>
-			<true/>
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
 	<integer>200</integer>
 	<key>metaData</key>
 	<dict>
-		<key>dev/Sample2/app/controllers/application_controller.rb</key>
+		<key>app/assets/stylesheets/custom.css</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>1</integer>
+				<key>line</key>
+				<integer>244</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>215</integer>
+		</dict>
+		<key>app/controllers/application_controller.rb</key>
 		<dict>
 			<key>caret</key>
 			<dict>
@@ -43,21 +55,63 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>dev/Sample2/app/controllers/pages_controller.rb</key>
+		<key>app/controllers/microposts_controller.rb</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>19</integer>
+				<integer>7</integer>
 				<key>line</key>
-				<integer>15</integer>
+				<integer>25</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>dev/Sample2/app/models/micropost.rb</key>
+		<key>app/controllers/pages_controller.rb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>8</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>app/controllers/sessions_controller.rb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>app/helpers/sessions_helper.rb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>36</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>1</integer>
+		</dict>
+		<key>app/models/micropost.rb</key>
 		<dict>
 			<key>caret</key>
 			<dict>
@@ -71,21 +125,163 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>dev/Sample2/app/models/user.rb</key>
+		<key>app/models/relationship.rb</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>46</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>4</integer>
+				<integer>3</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>dev/Sample2/app/views/users/show.html.erb</key>
+		<key>app/models/user.rb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>49</integer>
+				<key>line</key>
+				<integer>6</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>app/views/layouts/application.html.erb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>app/views/microposts/_micropost.html.erb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>11</integer>
+				<key>line</key>
+				<integer>13</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>app/views/pages/home.html.erb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>11</integer>
+				<key>line</key>
+				<integer>7</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>app/views/shared/_error_messages.html.erb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>25</integer>
+				<key>line</key>
+				<integer>7</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>app/views/shared/_feed.html.erb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>14</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>11</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>21</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<key>app/views/shared/_feed_item.html.erb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>21</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>app/views/shared/_micropost_form.html.erb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>1</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>app/views/shared/_user_info.html.erb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>11</integer>
+				<key>line</key>
+				<integer>8</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>app/views/users/show.html.erb</key>
 		<dict>
 			<key>caret</key>
 			<dict>
@@ -99,7 +295,7 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>dev/Sample2/app/views/users/untitled.erb</key>
+		<key>app/views/users/untitled.erb</key>
 		<dict>
 			<key>caret</key>
 			<dict>
@@ -113,21 +309,49 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>dev/Sample2/config/routes.rb</key>
+		<key>config/routes.rb</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>53</integer>
 				<key>line</key>
-				<integer>0</integer>
+				<integer>13</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>15</integer>
+			<integer>0</integer>
 		</dict>
-		<key>dev/Sample2/spec/controllers/users_controller_spec.rb</key>
+		<key>lib/tasks/sample_data.rake</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>15</integer>
+				<key>line</key>
+				<integer>19</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>spec/controllers/microposts_controller_spec.rb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>2</integer>
+				<key>line</key>
+				<integer>65</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>69</integer>
+		</dict>
+		<key>spec/controllers/users_controller_spec.rb</key>
 		<dict>
 			<key>caret</key>
 			<dict>
@@ -141,7 +365,7 @@
 			<key>firstVisibleLine</key>
 			<integer>29</integer>
 		</dict>
-		<key>dev/Sample2/spec/factories.rb</key>
+		<key>spec/factories.rb</key>
 		<dict>
 			<key>caret</key>
 			<dict>
@@ -155,7 +379,7 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>dev/Sample2/spec/models/micropost_spec.rb</key>
+		<key>spec/models/micropost_spec.rb</key>
 		<dict>
 			<key>caret</key>
 			<dict>
@@ -169,37 +393,49 @@
 			<key>firstVisibleLine</key>
 			<integer>19</integer>
 		</dict>
-		<key>dev/Sample2/spec/models/user_spec.rb</key>
+		<key>spec/models/relationship_spec.rb</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
 				<integer>0</integer>
 				<key>line</key>
-				<integer>156</integer>
+				<integer>15</integer>
 			</dict>
-			<key>columnSelection</key>
-			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>133</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>2</integer>
-				<key>line</key>
-				<integer>155</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>156</integer>
-			</dict>
+			<integer>0</integer>
 		</dict>
-		<key>dev/Sample2/spec/requests/users_spec.rb</key>
+		<key>spec/models/user_spec.rb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>7</integer>
+				<key>line</key>
+				<integer>172</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>147</integer>
+		</dict>
+		<key>spec/requests/microposts_spec.rb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>28</integer>
+				<key>line</key>
+				<integer>30</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>11</integer>
+		</dict>
+		<key>spec/requests/users_spec.rb</key>
 		<dict>
 			<key>caret</key>
 			<dict>
@@ -216,22 +452,32 @@
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>dev/Sample2/app/controllers/application_controller.rb</string>
-		<string>dev/Sample2/spec/models/user_spec.rb</string>
-		<string>dev/Sample2/app/models/micropost.rb</string>
-		<string>dev/Sample2/spec/controllers/users_controller_spec.rb</string>
-		<string>dev/Sample2/app/views/users/show.html.erb</string>
-		<string>dev/Sample2/app/views/users/untitled.erb</string>
-		<string>dev/Sample2/app/models/user.rb</string>
-		<string>dev/Sample2/spec/factories.rb</string>
-		<string>dev/Sample2/spec/models/micropost_spec.rb</string>
-		<string>dev/Sample2/spec/requests/users_spec.rb</string>
-		<string>dev/Sample2/config/routes.rb</string>
-		<string>dev/Sample2/app/controllers/pages_controller.rb</string>
+		<string>app/views/pages/home.html.erb</string>
+		<string>app/helpers/sessions_helper.rb</string>
+		<string>app/controllers/microposts_controller.rb</string>
+		<string>spec/requests/microposts_spec.rb</string>
+		<string>app/models/relationship.rb</string>
+		<string>spec/models/relationship_spec.rb</string>
+		<string>spec/models/user_spec.rb</string>
+		<string>app/models/user.rb</string>
+		<string>app/controllers/application_controller.rb</string>
+		<string>app/views/microposts/_micropost.html.erb</string>
+		<string>app/views/shared/_micropost_form.html.erb</string>
+		<string>app/views/shared/_error_messages.html.erb</string>
+		<string>app/views/layouts/application.html.erb</string>
+		<string>app/views/shared/_user_info.html.erb</string>
+		<string>app/controllers/pages_controller.rb</string>
+		<string>app/views/shared/_feed.html.erb</string>
+		<string>app/views/shared/_feed_item.html.erb</string>
+		<string>app/controllers/sessions_controller.rb</string>
+		<string>app/assets/stylesheets/custom.css</string>
+		<string>lib/tasks/sample_data.rake</string>
+		<string>config/routes.rb</string>
+		<string>spec/controllers/microposts_controller_spec.rb</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{868, 70}, {960, 590}}</string>
+	<string>{{1050, 102}, {830, 627}}</string>
 </dict>
 </plist>
